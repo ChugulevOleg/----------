@@ -1,0 +1,65 @@
+body, html{
+    width: 100%;
+    height: 100%;
+    background-color: lemonchiffon;
+}
+* {
+    padding: 0%;
+    margin: 0%;
+}
+.globalInfo{
+    width: 35%;
+    background-color: rgb(255, 255, 253);
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 2rem;
+}
+
+.nameText{
+    position: inherit;
+    font-size: 60px;
+}
+p{
+    font-family:system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 28px;
+}
+.buttonAdd{
+    margin:3% 0% 5% 0%;
+    width: 30%;
+    padding: 2% 4% 2% 4%;
+    text-align: center;
+    background-color: lemonchiffon;
+    border-radius: 1rem;
+    border-color: lemonchiffon;
+    border-style: none;
+    font-size: 28px;
+    cursor: pointer;
+}
+.buttonAdd:hover{
+    box-shadow: -1px 1px 3px 3px rgb(219, 219, 219);
+    background-color: rgb(255, 244, 150); 
+}
+.buttonAdd:active{
+    box-shadow: -1px 1px 10px 3px rgb(219, 219, 219);
+    background-color: rgb(255, 248, 188);
+}
+.inputText{
+    margin: 5% 0% 5% 0%;
+}
+input{
+    outline: none;
+    border: 4px solid lemonchiffon;
+    border-radius: 1rem;
+    width: 40%;
+    text-align: center;
+    padding: 3%;
+    font-size: 20px;
+}
+input::placeholder{
+    font-family:system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    color: black;
+}

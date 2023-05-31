@@ -1,0 +1,24 @@
+.contanerText{
+    left: 50%;
+    text-align: center;
+    width: 100%;
+}
+.contanerText p {
+    font-family:system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.privet{
+    font-size: 60px;
+    margin: 6% 0% 0% 3%;
+    text-align: left;
+    animation: text;
+}
+.name{
+    font-size: 88px;
+    margin: 4% 12% 0% 0%;
+    text-align: right;
+    text-transform: uppercase;
+}
+.adress{
+    font-size: 28px;
+    margin: 4% 0% 0% 0%;
+}
